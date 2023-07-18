@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color changer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./file.js"></script>
+</head>
+<body>
+<div class="hOLDER" >
+       
+        <h1 id="name"> Click the below button to Change the text Color</h1>
+    
+    <div class="btns" >
+        <button class="btn btn1" onclick="colorRed()">Red </button>
+        <button class="btn btn2" onclick="colorGreen()">Green </button>
+        <button class="btn btn3" onclick="colorPink()">Pink </button>
+        <button class="btn btn4" onclick="colorCadetBlue()">CadetBlue </button>
+        <button class="btn btn5" onclick="colorDarkblue()">Darkblue</button>
+        <button class="btn btn6" onclick="colorDarkMagenta()">DarkMagenta</button>
+    </div>
+</div>
+<script >
+    var nametag = document.getElementById("name");
+
+function colorRed(){
+    nametag.style.color="#ca0202";
+}
+
+function colorGreen(){
+    nametag.style.color="#008000";
+}
+
+function colorPink(){
+    nametag.style.color="#eb2577";
+
+}
+
+function colorCadetBlue(){
+    nametag.style.color="#137275";
+}
+
+function colorDarkblue(){
+    nametag.style.color="#1714a3";
+}
+
+function colorDarkMagenta(){
+    nametag.style.color="DarkMagenta";
+}
+ </script>
+</body>
+</html>
