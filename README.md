@@ -1,2 +1,5 @@
 # ColorChanger
-The Simple Color Changer Text project is a basic web application that allows users to change the color of a text element by selecting different colors from a predefined palette. It offers a straightforward and user-friendly way to experiment with text styling and add a touch of color to plain text.
+## [lIVE PREVIEW]()
+
+### ScreenShot
+![cc](https://github.com/ABUBAKCAR-SIDDIQ/ColorChanger/assets/139454963/0b92fe7f-8d24-4e5d-b611-85b8b56d8ad3)
